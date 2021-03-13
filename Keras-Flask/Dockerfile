@@ -10,5 +10,7 @@ RUN yum install python3-devel -y
 
 RUN pip3 install tensorflow
 
+RUN pip3 install flask
+
 
 
