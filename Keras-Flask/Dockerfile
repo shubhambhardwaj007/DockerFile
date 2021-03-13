@@ -8,11 +8,14 @@ RUN yum install gcc-c++ -y
 
 RUN yum install python3-devel -y
 
-RUN pip3 install tensorflow
+RUN pip3 install --upgrade pip
+
+RUN pip3 install tensorflow==2.4
 
 RUN pip3 install flask
 
-RUN pip3 install --upgrade pip
+
+
 
 
 
