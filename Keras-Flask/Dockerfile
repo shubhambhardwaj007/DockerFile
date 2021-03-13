@@ -6,6 +6,8 @@ RUN pip3 install keras
 
 RUN yum install gcc-c++ -y
 
+RUN yum install python3-devel -y
+
 RUN pip3 install tensorflow
 
 
